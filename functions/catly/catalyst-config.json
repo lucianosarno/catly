@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "catly",
+		"stack": "node16",
+		"type": "advancedio",
+		"env_variables": {}
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

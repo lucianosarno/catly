@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "1456000000021788",
+      "name": "Catly",
+      "domain": {
+        "id": "30008009837",
+        "name": "catly-20083716636.development"
+      },
+      "timezone": "America/Fortaleza",
+      "env": [
+        {
+          "idx": 1,
+          "id": "20083716636",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

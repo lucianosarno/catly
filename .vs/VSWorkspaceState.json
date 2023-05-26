@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\public",
+    "\\app\\src",
+    "\\app\\src\\Input",
+    "\\app\\src\\utils",
+    "\\functions",
+    "\\functions\\catly"
+  ],
+  "SelectedNode": "\\functions\\catly\\catalyst-config.json",
+  "PreviewInSolutionExplorer": false
+}

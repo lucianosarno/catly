@@ -1,0 +1,9 @@
+{
+	"name": "catly",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "luciano.soares@a2zcloud.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

@@ -44,3 +44,55 @@ Response Headers: {"server":"ZGS","date":"Thu, 25 May 2023 22:38:37 GMT","conten
 [info] [2023-05-25T22:38:59.266Z] : [react-plugin]: To create a production build, use npm run build.
 [info] [2023-05-25T22:38:59.274Z] : [react-plugin]: 
 [info] [2023-05-25T22:38:59.709Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[debug] [2023-05-29T20:51:18.409Z] : 
+[debug] [2023-05-29T20:51:18.410Z] : ----------------------------------------------------------------------
+[debug] [2023-05-29T20:51:18.411Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\lssar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-05-29T20:51:18.411Z] : CLI Version:  1.14.1
+[debug] [2023-05-29T20:51:18.412Z] : Platform:     win32
+[debug] [2023-05-29T20:51:18.412Z] : Node Version: v18.16.0
+[debug] [2023-05-29T20:51:18.414Z] : Time:         Mon May 29 2023 17:51:18 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-05-29T20:51:18.415Z] : ----------------------------------------------------------------------
+[debug] [2023-05-29T20:51:18.415Z] : 
+[debug] [2023-05-29T20:51:19.307Z] : > authorizing via signed-in user option
+[debug] [2023-05-29T20:51:19.307Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-29T20:51:19.323Z] : > refreshing access token <
+[debug] [2023-05-29T20:51:19.324Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.eu/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-05-29T20:51:20.490Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 29 May 2023 20:51:20 GMT","content-type":"application/json;charset=UTF-8","content-length":"2762","connection":"close","set-cookie":["d4bcc0a499=953809aceaa07cf41469153cac12ef23; Path=/","iamcsr=4786b3d2-8387-4899-bceb-7b939e436315;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4786b3d2-8387-4899-bceb-7b939e436315;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-29T20:51:20.507Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.eu/baas/v1/project/1456000000021788 
+
+[debug] [2023-05-29T20:51:21.427Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 29 May 2023 20:51:21 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["ab25e93765=5140fb6b21fbde1004caca29bb22d43b; Path=/","ZD_CSRF_TOKEN=b3d496dd-fb92-4d06-bef8-f74337743f33;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b3d496dd-fb92-4d06-bef8-f74337743f33;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-29T20:51:21.429Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.eu/baas/v1/project/1456000000021788/environment 
+
+[debug] [2023-05-29T20:51:22.029Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 29 May 2023 20:51:21 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["ab25e93765=a3d62685c5db339c36e74f2a5a06deea; Path=/","ZD_CSRF_TOKEN=f51a2f11-550e-42e4-99e0-e91968735812;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f51a2f11-550e-42e4-99e0-e91968735812;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-29T20:51:22.507Z] : Build folder already exists, staring cleanup
+[debug] [2023-05-29T20:51:22.626Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.eu/baas/v1/project/1456000000021788/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-05-29T20:51:23.565Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 29 May 2023 20:51:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["ab25e93765=a3d62685c5db339c36e74f2a5a06deea; Path=/","ZD_CSRF_TOKEN=6261e020-ece5-4331-b2a4-59aabed4f7d3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6261e020-ece5-4331-b2a4-59aabed4f7d3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-29T20:51:23.569Z] : unknown eol undefined hence skipping check
+[info] [2023-05-29T20:51:32.258Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-05-29T20:51:32.261Z] : i client[app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-05-29T20:51:37.846Z] : 
+[info] [2023-05-29T20:51:37.847Z] : i server[catly]: URL : http://localhost:3000/server/catly/
+[info] [2023-05-29T20:51:37.847Z] : 
+[info] [2023-05-29T20:51:59.905Z] : [react-plugin]: Compiled successfully!
+[info] [2023-05-29T20:51:59.906Z] : [react-plugin]: 
+[info] [2023-05-29T20:51:59.906Z] : [react-plugin]: You can now view app in the browser.
+[info] [2023-05-29T20:51:59.907Z] : [react-plugin]: 
+[info] [2023-05-29T20:51:59.907Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-05-29T20:51:59.908Z] : [react-plugin]:   On Your Network:  http://10.17.0.9:3000/app/
+[info] [2023-05-29T20:51:59.908Z] : [react-plugin]: 
+[info] [2023-05-29T20:51:59.908Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-05-29T20:51:59.909Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-05-29T20:51:59.909Z] : [react-plugin]: 
